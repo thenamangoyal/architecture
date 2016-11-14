@@ -29,24 +29,24 @@
 l1-dcache
  Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
  -----------------	      ------	      ------	      ------	      ------	      ------	      ------
- Demand Fetches		     2010000	           0	     2010000	     2000000	       10000	           0
-  Fraction of total	      1.0000	      0.0000	      1.0000	      0.9950	      0.0050	      0.0000
+ Demand Fetches		   250250000	           0	   250250000	   250000000	      250000	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.9990	      0.0010	      0.0000
 
- Demand Misses		      127650	           0	      127650	      126399	        1251	           0
-  Demand miss rate	      0.0635	      0.0000	      0.0635	      0.0632	      0.1251	      0.0000
-   Compulsory misses	        3751	           0	        3751	        2500	        1251	           0
-   Capacity misses	      123899	           0	      123899	      123899	           0	           0
+ Demand Misses		    74016162	           0	    74016162	    73778162	      238000	           0
+  Demand miss rate	      0.2958	      0.0000	      0.2958	      0.2951	      0.9520	      0.0000
+   Compulsory misses	       93751	           0	       93751	       62500	       31251	           0
+   Capacity misses	    73922411	           0	    73922411	    73715662	      206749	           0
    Conflict misses	           0	           0	           0	           0	           0	           0
-   Compulsory fraction	      0.0294	      0.0000	      0.0294	      0.0198	      1.0000	      0.0000
-   Capacity fraction	      0.9706	      0.0000	      0.9706	      0.9802	      0.0000	      0.0000
+   Compulsory fraction	      0.0013	      0.0000	      0.0013	      0.0008	      0.1313	      0.0000
+   Capacity fraction	      0.9987	      0.0000	      0.9987	      0.9992	      0.8687	      0.0000
    Conflict fraction	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
 
  Multi-block refs                 0
- Bytes From Memory	     4084800
- ( / Demand Fetches)	      2.0322
- Bytes To Memory	       40032
- ( / Demand Writes)	      4.0032
- Total Bytes r/w Mem	     4124832
- ( / Demand Fetches)	      2.0522
+ Bytes From Memory	  2368517184
+ ( / Demand Fetches)	      9.4646
+ Bytes To Memory	     7616000
+ ( / Demand Writes)	     30.4640
+ Total Bytes r/w Mem	  2376133184
+ ( / Demand Fetches)	      9.4950
 
 ---Execution complete.
