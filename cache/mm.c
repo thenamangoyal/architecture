@@ -1,28 +1,28 @@
-#ifndef MATMATSIZE
-	#define MATMATSIZE 10
+#ifndef SIZE
+	#define SIZE 10
 #endif
 
 #include <stdio.h>
 
 int main() {
 
-	int A[MATSIZE][MATSIZE];
-	int B[MATSIZE][MATSIZE];
-	int C[MATSIZE][MATSIZE];
+	int A[SIZE][SIZE];
+	int B[SIZE][SIZE];
+	int C[SIZE][SIZE];
 
 	int i, j, k, sum;
 
-	for(i=0; i<MATSIZE; i++){
-		for(j=0; j<MATSIZE; j++){
+	for(i=0; i<SIZE; i++){
+		for(j=0; j<SIZE; j++){
 			A[i][j] = 0;
 			B[i][j] = 0;
 		}
 	}
 
-	for(i=0; i<MATSIZE; i++){
-		for(j=0; j<MATSIZE; j++){
+	for(i=0; i<SIZE; i++){
+		for(j=0; j<SIZE; j++){
 			sum = 0;
-			for (k=0; k< MATSIZE; k++){
+			for (k=0; k< SIZE; k++){
 				sum += A[i][k]*B[k][j];
 				printf("0 %p\n", &A[i][k]);
 				printf("0 %p\n", &B[k][j]);
