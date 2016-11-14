@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for MATRIXSIZE in 100 200
+for MATRIXSIZE in 200 500
 do
 	gcc -DSIZE=${MATRIXSIZE} mm.c -o mm
 	echo "-----------------------------------------"
