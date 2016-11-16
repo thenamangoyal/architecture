@@ -8,7 +8,7 @@ int main() {
 
 	int A[SIZE][SIZE];
 	int B[SIZE][SIZE];
-	int C[SIZE][SIZE];
+	int C[SIZE][SIZE] = {0};
 
 	int i, j, k;
 
