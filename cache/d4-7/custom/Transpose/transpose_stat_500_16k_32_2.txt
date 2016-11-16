@@ -1,0 +1,52 @@
+---Dinero IV cache simulator, version 7
+---Written by Jan Edler and Mark D. Hill
+---Copyright (C) 1997 NEC Research Institute, Inc. and Mark D. Hill.
+---All rights reserved.
+---Copyright (C) 1985, 1989 Mark D. Hill.  All rights reserved.
+---See -copyright option for details
+
+---Summary of options (-help option gives usage information).
+
+-l1-dsize 16384
+-l1-dbsize 32
+-l1-dsbsize 32
+-l1-dassoc 2
+-l1-drepl l
+-l1-dfetch d
+-l1-dwalloc a
+-l1-dwback a
+-l1-dccc
+-skipcount 0
+-flushcount 0
+-maxcount 0
+-stat-interval 0
+-informat d
+-on-trigger 0x0
+-off-trigger 0x0
+
+---Simulation begins.
+---Simulation complete.
+l1-dcache
+ Metrics		      Total	      Instrn	       Data	       Read	      Write	       Misc
+ -----------------	      ------	      ------	      ------	      ------	      ------	      ------
+ Demand Fetches		   250750000	           0	   250750000	   250250000	      500000	           0
+  Fraction of total	      1.0000	      0.0000	      1.0000	      0.9980	      0.0020	      0.0000
+
+ Demand Misses		    15856297	           0	    15856297	    15714127	      142170	           0
+  Demand miss rate	      0.0632	      0.0000	      0.0632	      0.0628	      0.2843	      0.0000
+   Compulsory misses	      125001	           0	      125001	       62501	       62500	           0
+   Capacity misses	    15682098	           0	    15682098	    15625499	       56599	           0
+   Conflict misses	       49198	           0	       49198	       26127	       23071	           0
+   Compulsory fraction	      0.0079	      0.0000	      0.0079	      0.0040	      0.4396	      0.0000
+   Capacity fraction	      0.9890	      0.0000	      0.9890	      0.9944	      0.3981	      0.0000
+   Conflict fraction	      0.0031	      0.0000	      0.0031	      0.0017	      0.1623	      0.0000
+
+ Multi-block refs                 0
+ Bytes From Memory	   507401504
+ ( / Demand Fetches)	      2.0235
+ Bytes To Memory	     4549472
+ ( / Demand Writes)	      9.0989
+ Total Bytes r/w Mem	   511950976
+ ( / Demand Fetches)	      2.0417
+
+---Execution complete.
