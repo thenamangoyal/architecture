@@ -31,8 +31,3 @@
 # Debug files
 *.dSYM/
 *.su
-
-
-cache/d4-7/custom/mm
-cache/d4-7/custom/mm_200.trace
-cache/d4-7/custom/mm_500.trace
