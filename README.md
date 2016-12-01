@@ -1,2 +1,4 @@
 # architecture
-Computer Architecture CSL211 Assignments (Summer 2016)
+Computer Architecture CSL211 Assignments (Fall 2016)
+
+Please refer to individual redme
